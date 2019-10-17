@@ -7,75 +7,377 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>Bootstrap About Me</title>
-
+  <link rel="stylesheet" type="text/css" href="assets/CSS/reset.css">
+  <link rel="stylesheet" type="text/css" href="assets/CSS/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Slabo+27px&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Cardo&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond&display=swap" rel="stylesheet">
   <!-- Bootstrap CDN -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script herf="assets/javascript/parsley.min.js"></script>
 
 </head>
-  <body>         
-        <!-- Start Nav -->             
-                        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #ebebeb;">  
-                                  <a class="navbar-brand"></a>Prasamsha Sharma</a>                                   
-                                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-                                      <span class="navbar-toggler-icon"></span>
-                                  </button>                                              
-                              <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-                                  <ul class="navbar-nav ml-auto mt-2 mt-lg-0">                                  
-                                      <li class="nav-item">
-                                        <a class="nav-link" href=index.html href="#">About</a>
-                                      </li>
-                                      <li class="nav-item">
-                                          <a class="nav-link" href=portfolio.html href="#">Portfolio</a>
-                                      </li>
-                                      <li class="nav-item">
-                                          <a class="nav-link" href=contact.html href="#">Contact</a>
-                                      </li>                                      
-                                  </ul>                               
-                              </div>                            
-                      </nav>               
-         <!-- End Nav -->
-
-     <!-- Start container -->                       
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12">
-                            <div class="page-header">   
-                              <br>           
-                              <h5>About Me</h5>
-                              <br>
-                            </div>
-                          <div class="row">
-                              <div class="col-sm-3">                    
-                                <img src="prasamsha.jpg" alt="prasamsha" class="img-thumbnail" class="img-circle"  class="img-fluid">                 
-                              </div>
-                                <div class="col-sm-9">
-                                    <div class="caption">                       
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dignissim, felis ut dictum tristique,
-                                          nibh erat feugiat libero, sit amet fringilla mauris velit in mi. Duis tempus felis vitae
-                                          felis vulputate pretium. Nullam commodo, est ac auctor ornare, eros nisi fringilla sem,
-                                          non pulvinar tortor lorem sit amet sem. Aenean quis erat facilisis, porttitor ex cursus,
-                                          luctus enim. Curabitur et metus in lacus tristique sagittis et in lorem. Nunc id nisi et
-                                          neque fringilla ultricies. Aenean at feugiat elit, a posuere justo. Pellentesque egestas
-                                          dolor et nisi venenatis, nec fermentum urna fringilla. Etiam efficitur porta purus, id
-                                          posuere sem congue a.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dignissim, felis ut dictum tristique,
-                                          nibh erat feugiat libero, sit amet fringilla mauris velit in mi. Duis tempus felis vitae
-                                          felis vulputate pretium.
-                                        </p>
-                                  </div>
-                            </div>
-                        </div>
+  <body id="wrapper">
+    <div class="hero-bkg-animated">
+      <div id="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div id="about">
+              <img src="assets/images/sharma.jpg" alt="Responsive image" alt="Avatar" class="img-fluid" id="img-main">
+              <h1 class="display-4">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- <div class="row"> -->
+    <div class="row">
+        <div class="col-sm-12">
+          <div class="caption" id ="head">
+            Hello! I'm Prasamsha <br>I love creating websites</h1>
+          </div>
+        </div>
+      </div>
+    <br><div class="about-container" >
+      <div class="row">
+        <div class="col-sm-12">
+            <div class="caption">
+              <div class="flex-parent">
+                <div class="flex-child-edge"></div>
+                  <div class="flex-child-text"><h1 class="display-4" >About</h1></div>             
+                  <div class="flex-child-edge"></div>
                 </div>
+              </div>
+            </div>
+          </div><br>  
+        <div class="row">
+            <div class="col-sm-12">       
+        <div><a class="boxed" href="https://drive.google.com/file/d/15bl0YSlbWBF_zYguaFNQxnsUdxlhfDlT/view" id="cv">Download My CV</a></div>
+          </div>
+        </div>
+        <div class="container">
+        <br><h1 class="display-4" ><h1>
+          <div class="row">
+            <div class="col-sm-4">
+              <div class="caption"> 
+                <h3>About Me</h3>
+                <div class="about-border"></div>
+            <p>Full-Stack Web Developer with a passion to design beautiful and functional user experiences. 
+              Focused on writing clean, elegant and efficient code.
+              Known as an innovative problem-solver and team player.
+            </p>
+            <div class="about-border"></div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="caption">  
+              <h3>My Skills</h3>  
+              <div class="about-border"></div>
+              <p>Node.js, Express, JavaScript, jQuery, React.js, 
+                React Native, GIT, GitHub, MongoDB, MySQL, Firebase, HTML, CSS, Bootstrap, Media Queries, APIs, JSON, REST, AJAX.
+              </p>
+              <div class="about-border"></div>
+          </div>
+      </div>
+        <div class="col-sm-4">
+            <div class="caption"> 
+                <h3>What I do</h3>   
+                <div class="about-border"></div>                   
+                <p>Enjoys turning complex problems into simple, beautiful and intuitive designs.
+                  When not coding, loves to paint, especially Buddha, trees and mountains.
+                </p>
+                <div class="about-border"></div>
+            </div>
+          </div>
+        </div>  
+    </div>
+  <br><div class="portfolio-container" >
+      <div class="row">
+        <div class="col-sm-12">
+            <div class="caption">
+              <div class="flex-parent">
+                <div class="flex-child-edge"></div>
+                  <div class="flex-child-text"><h1 class="display-4">Portfolio</h1></div>             
+                  <div class="flex-child-edge"></div>
+                </div>
+              </div>
+            </div>
+          </div><br>  
+        <div class="container">              
+        <br><h1 class="display-4"><h1>
+        <div class="row">
+          <div class="col-sm-4">
+            <div class="caption" id="content">
+              <div id="project-info"> 
+                  <h4>The Psychic Game</h4> 
+                    <div class="about-border"></div>
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                          <div class="flip-card-front">
+                              <img src="assets/images/power.jpg" alt="Responsive image"  class="img-fluid" id="img-port">                    
+                            </div>
+                            <div class="flip-card-back" >
+                              <div id="overview">
+                                This is a psychic computer game. User guesses the letter that the computer is thinking. You only have 9 guesses! Once you win or you run out of guesses, computer will choose a new letter for the user to guess.
+                              </div><br>
+                              <div><a href="https://sharmap1.github.io/Psychic-Game/" id="link">App link</a></div><br>
+                            <a href="https://github.com/sharmap1/Psychic-Game"><i class="fa fa-github" id="link" aria-hidden="true" style="font-size:25px"></i></a>
+                          </div>
+                        </div>
+                      </div>
+                <div class="about-border"></div>
+              </div>
+             </div>
+          </div>
+          <!-- project2 -->
+              <div class="col-sm-4">
+                  <div class="caption"> 
+                      <div id="project-info">
+                    <h4>Giftastic Animal Love</h4> 
+                    <div class="about-border"></div>
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                          <div class="flip-card-front">
+                             <img src="assets/images/giphy1.jpeg" alt="Responsive image"  class="img-fluid" id="img-port">                    
+                            </div>
+                            <div class="flip-card-back" >
+                              <div id="overview">
+                                  This app uses GIPHY API to make a dynamic web page that populates gifs of user choice. When the user clicks on a button, the page grabs 10 static, non-animated gif images from the GIPHY API and place them on the page.
+                              </div><br>
+                              <div><a href="https://sharmap1.github.io/Giftastic/" id="link">App link</a></div><br>
+                            <a href="https://github.com/sharmap1/Giftastic"><i class="fa fa-github" aria-hidden="true" id="link" style="font-size:25px"></i></a>
+                          </div>
+                        </div>
+                      </div>
+                <div class="about-border"></div>
+              </div>
+            </div>
+          </div>
+          <!-- project2 end -->
+          <div class="col-sm-4">
+              <div class="caption"> 
+                  <div id="project-info">
+                <h4>Crystal Collector</h4> 
+                <div class="about-border"></div>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                      <div class="flip-card-front">
+                         <img src="assets/images/crystal.png"  alt="Responsive image"  class="img-fluid" id="img-port">                    
+                        </div>
+                        <div class="flip-card-back" >
+                          <div id="overview">
+                              This is a fun game where there are four crystals which on click will add a specific amount 
+                              of points to the total score. The user wins if the score earned  matches with the number displayed.
+                              And loses if total score goes above it. 
+                          </div><br>
+                          <div><a href="https://sharmap1.github.io/Crystal-Collector/" id="link">App link</a></div><br>
+                        <a href="https://github.com/sharmap1/Crystal-Collector"><i class="fa fa-github" aria-hidden="true" id="link" style="font-size:25px"></i></a>
+                      </div>
+                    </div>
+                  </div>
+            <div class="about-border"></div>
+          </div>
+        </div>
+      </div>   
+    </div> 
+    <!-- <br><<input class="display-4"><h1> -->
+        <div class="row">
+          <div class="col-sm-4">
+            <div class="caption"> 
+                <div id="project-info">
+              <h4>Train Schedule</h4> 
+              <div class="about-border"></div>
+              <div class="flip-card">
+                  <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                       <img src="assets/images/train.jpg" alt="Responsive image"  class="img-fluid" id="img-port">                    
+                      </div>
+                      <div class="flip-card-back" >
+                        <div id="overview">                          
+                            In this app, user can add new train name, start time and frequency to schedule. 
+                            Stores Train information in Firebase for data persistence and retreives information 
+                            from database on load. 
+                        </div><br>
+                        <div><a href="https://sharmap1.github.io/Train-Schedule/" id="link">App link</a></div><br>
+                      <a href="https://github.com/sharmap1/Train-Schedule"><i class="fa fa-github" aria-hidden="true" id="link" style="font-size:25px"></i></a>
+                    </div>
+                  </div>
+                </div>
+          <div class="about-border"></div>
+        </div>
+        </div>
+    </div>
+    <div class="col-sm-4">
+        <div class="caption"> 
+            <div id="project-info">
+          <h4>Utopia Travels</h4> 
+          <div class="about-border"></div>
+          <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                   <img src="assets/images/rocket.jpg" alt="Responsive image"  class="img-fluid" id="img-port">                    
+                  </div>
+                  <div class="flip-card-back" >
+                    <div id="overview">
+                        This intergalactic travel website displays travel packages, destination information, pictures,
+                        safety tips, and a contact form. It uses NASA API's to provide vital information to the user
+                        (Asteroids API, Picture of the day API).      
+                    </div><br>
+                    <div><a href="https://riaanderson.github.io/Utopia-Intergalactic-Travel/" id="link">App link</a></div><br>
+                  <a href="https://github.com/RiaAnderson/Utopia-Intergalactic-Travel"><i class="fa fa-github" aria-hidden="true" id="link" style="font-size:25px"></i></a>
+                </div>
+              </div>
+            </div>
+      <div class="about-border"></div>
+    </div>
+</div>
+    </div>
+        <div class="col-sm-4">
+            <div class="caption"> 
+                <div id="project-info">
+              <h4>Minion Trivia</h4> 
+              <div class="about-border"></div>
+              <div class="flip-card">
+                  <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                      <img src="assets/images/minion1.png"  alt="Responsive image"  class="img-fluid" id="img-port">                    
+                      </div>
+                      <div class="flip-card-back" >
+                        <div id="overview">
+                            In this game, 10 questions are randomly generated with countdown timer for answer. 
+                            App gives correct answer with gif/image after user guess. In the end, it will display scores with 
+                            the option to restart the game.                  
+                        </div><br>
+                        <div><a href="https://sharmap1.github.io/Trivia-Game/" id="link">App link</a></div><br>
+                      <a href="https://github.com/sharmap1/Trivia-Game"><i class="fa fa-github" aria-hidden="true" id="link" style="font-size:25px"></i></a>
+                    </div>
+                  </div>
+                </div>
+          <div class="about-border"></div>
+        </div>
+      </div> 
+    </div> 
+    <div class="col-sm-4">
+      <div class="caption"> 
+          <div id="project-info">
+        <h4>Liri Bot</h4> 
+        <div class="about-border"></div>
+        <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                 <img src="assets/images/liri.png" alt="Responsive image"  class="img-fluid" id="img-port">                    
+                </div>
+                <div class="flip-card-back" >
+                  <div id="overview">
+                    LIRI is a Language Interpretation and Recognition Interface.LIRI is a command line node app that takes in parameters 
+                    and gives you back data. LIRI will search Spotify for songs, Bands in Town for concerts, and OMDB for movies.
+                  </div><br>
+                  <!-- <div><a href="https://sharmap1.github.io/liri/" id="link">App link</a></div><br> -->
+                <a href="https://github.com/sharmap1/liri-node-app"><i class="fa fa-github" aria-hidden="true" id="link" style="font-size:25px"></i></a>
+              </div>
+            </div>
+          </div>
+    <div class="about-border"></div>
+  </div>
+</div>
+</div> 
+<div class="col-sm-4">
+  <div class="caption"> 
+      <div id="project-info">
+    <h4>Bamazon</h4> 
+    <div class="about-border"></div>
+    <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+             <img src="assets/images/bamazon.jpg" alt="Responsive image"  class="img-fluid" id="img-port">                    
+            </div>
+            <div class="flip-card-back" >
+              <div id="overview">
+                This is an Amazon-like storefront with the MySQL. The app will take in orders from customers and delete stock from the store's 
+                inventory, tracks product sales and provides a summary of the highest-grossing departments in the store.  
+              </div><br>
+              <!-- <div><a href="https://sharmap1.github.io/Bamazon/" id="link">App link</a></div><br> -->
+            <a href="https://github.com/sharmap1/Bamazon"><i class="fa fa-github" aria-hidden="true" id="link" style="font-size:25px"></i></a>
+          </div>
+        </div>
+      </div>
+<div class="about-border"></div>
+</div>
+</div>
+</div>
+<!-- end -->
+  </div>  
+</div>
+
+<!-- End container -->
+<br><div class="contact-container" >
+<div class="row">
+      <div class="col-sm-12">
+          <div class="caption"><br>
+            <div class="flex-parent">
+                <div class="flex-child-edge" id ="line"></div>
+                <div class="flex-child-text"><h1 class="display-4" >Contact</h1></div>           
+                <div class="flex-child-edge" id ="line"></div>
             </div>
         </div>
-    <!-- End container -->
-
-      <!-- Start footer-->   
-          <nav class="navbar fixed-bottom navbar-dark bg-dark">
-            <div class="container-fluid"> 
-              <a class="navbar-brand" href="#">Copyright &copy;</a>
-            </div> 
-        </nav>
+      </div>
+</div> 
+  <!-- <div class="container">               -->
+    <br><h1 class="display-4"><h1>
+                <div class="row">
+                  <div class="col-sm-4">
+                      <div class="caption"> 
+                        <div id="contact-info">
+                        <h4>Where to find me</h4>  
+                        <!-- <div class="about-border"></div>                     -->
+                        <div>    
+                          Prasamsha Sharma
+                          <br>Seattle, WA
+                          <!-- <br>prasamshari@gmail.com -->
+                         
+                          </div>
+                    </div>
+                </div>
+              </div>
+                <div class="col-sm-4">
+                    <div class="caption"> 
+                      <div id="form-info">
+                        <h4>Want to work together?</h4>  
+                        <!-- <div class="about-border"></div>                     -->
+                        <!-- form container -->
+                        
+                        <div class="col-sm-12">
+                          <div>
+                            <div><a href ="mailto:prasamshari@gmail.com"><i class="fa fa-envelope-o"  id="gyphon1"></i></a>: prasamshari@gmail.com</div>
+                            <div><i class="fa fa-phone" aria-hidden="true" id="gyphon1"></i>: 206-519-8877</div>
+                            
+                            </div>  
+                          </div>  
+                        </div>
+                      </div>
+                    </div>
+                    <!-- end form container -->
+                    <div class="col-sm-4">
+                      <div class="caption"> 
+                        <div id="fafa">
+                          <h4>Follow me</h4>  
+                          <!-- <div class="about-border"></div>                     -->
+                          <a href="https://www.linkedin.com/in/prasamsha-sharma-a87169154/"><i class="fa fa-linkedin-square" id="gyphon"></i></a>
+                     <a href="https://github.com/sharmap1"><i class="fa fa-github" aria-hidden="true" id="gyphon"></i></a>  
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- </div> -->
+              <!-- Start footer-->   
+              <div  class="footer"><br>
+                <a>&copy; Prasamsha 2019</a>
+              </div> 
+            </div>
       <!-- End footer-->   
-
+    </div>  
   </body>
 </html>
+                                 
